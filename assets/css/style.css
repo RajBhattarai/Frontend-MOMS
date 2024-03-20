@@ -36,6 +36,10 @@
 .navbar-nav .nav-link {
 position: relative; /* Add this line */
 }
+.cover-img img{
+  margin-left: 7px;
+  margin-right: 7px;
+}
 span{
     margin-left: 20px;
     color: rgb(244, 130, 8);
