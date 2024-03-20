@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.collapse{
+    display: flex;
+    text-align: center;
+    padding-left: 24%;  
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.svg{
+    padding-left: 100px;
+    margin-top: 7.46px;
+}
+.navbar-nav .nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: -2px; /* Adjust the position of the bar */
+  left: 50%; /* Start from the center */
+  width: 0; /* Initially width is 0 */
+  height: 2px; /* Height of the bar */
+  background-color:rgb(244, 130, 8); /* Change to your desired bar color */
+  transition: width 0.3s ease, left 0.3s ease; /* Transition width and left position */
+}
+
+.navbar-nav .nav-link:hover::before {
+  width: 50%; /* Expand the bar to half of the link width */
+  left: 25%; /* Move the bar to the center */
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(244, 130, 8);/* Change to your desired hover text color */
+}
+.navbar-nav .nav-link {
+position: relative; /* Add this line */
+}
+span{
+    margin-left: 20px;
+    color: rgb(244, 130, 8);
+}
+.form-container {
+  /* display: flex;
+  justify-content: space-between; */
+  background-color: #ffffff; 
+  width: 100%;
+  margin:   auto;
+  max-width: 80%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: -110px;
+  right: 0;
+  left: 0;
+  border-radius: 20px;
+  z-index: 10;
+}
+.form-group {
+  flex : 1;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-group button {
+  margin-top: 18px;
+  width: 100%;
+  padding: 10px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.form-group button:hover {
+  background-color: #e69500;
+}
+
+.raj {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.container{
+  position: relative;
+}
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200px;
+  background-color: #f2f2f2;
+ padding-bottom: 50px;
+}
+.about-image {
+  flex: 1;
+  /* margin-right: 10px; */
+}
+.about-content {
+  flex: 2;
+}
+.about-content h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+.about-content p {
+  color: #666;
+  line-height: 1.6;
+}
+.about-content button {
+  padding: 10px 20px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.about-content button:hover {
+  background-color: #e69500;
+}
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 5px; */
+}
+.stat-item {
+  text-align: center;
+}
+.stat-item h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+.stat-item p {
+  color: #666;
+}
+.center {
+  margin: 0 auto;
+  width: 60%; /* Adjust as per your layout */
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.center img {
+  width: 100%;
+}
+.owl-item.active.center {
+  -webkit-transform: scale(1.8);
+  transform: scale(1.8);
+}
+.item{
+padding: 20px;
+margin: 20px;
+}
+.owl-carousel{
+  padding-top: 5%;
+}
+.recent{
+  margin-top: 5%;
+}
+.testimonial-section {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+  /* display: flex */
+  /* flex-wrap: wrap; */
+}
+.testimonial-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  margin-left: 5%;
+}
+.testimonial-quote {
+  font-size: 1.5em;
+  color: orange;
+}
+.testimonial-text {
+  font-style: italic;
+  margin: 20px 0;
+}
+.testimonial-author {
+  font-weight: bold;
+  color: #333;
+}
+.testimonial-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: orange;
+  display: inline-block;
+}
+.testimonial-avatar img{
+  height:50px;
+  width: 50px;
+  border-radius:50% ;
+}
