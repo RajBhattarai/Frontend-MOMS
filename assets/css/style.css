@@ -22,24 +22,24 @@
 .navbar-nav .nav-link::before {
   content: '';
   position: absolute;
-  bottom: -2px; /* Adjust the position of the bar */
-  left: 50%; /* Start from the center */
-  width: 0; /* Initially width is 0 */
-  height: 2px; /* Height of the bar */
-  background-color:rgb(244, 130, 8); /* Change to your desired bar color */
-  transition: width 0.3s ease, left 0.3s ease; /* Transition width and left position */
+  bottom: -2px;
+  left: 50%; 
+  width: 0; 
+  height: 2px; 
+  background-color:rgb(244, 130, 8); 
+  transition: width 0.3s ease, left 0.3s ease; 
 }
 
 .navbar-nav .nav-link:hover::before {
-  width: 50%; /* Expand the bar to half of the link width */
-  left: 25%; /* Move the bar to the center */
+  width: 50%; 
+  left: 25%; 
 }
 
 .navbar-nav .nav-link:hover {
-  color: rgb(244, 130, 8);/* Change to your desired hover text color */
+  color: rgb(244, 130, 8);
 }
 .navbar-nav .nav-link {
-position: relative; /* Add this line */
+position: relative; 
 }
 
 /*-----------------------------Navbar CSS End-----------------------------------------------
