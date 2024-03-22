@@ -177,7 +177,7 @@ span{
 
 .center {
   margin: 0 auto;
-  width: 60%; /* Adjust as per your layout */
+  width: 60%; 
   padding-left: 50px;
   padding-right: 50px;
 }
